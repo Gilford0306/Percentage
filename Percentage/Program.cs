@@ -14,7 +14,7 @@ do
     double per = double.Parse(Console.ReadLine());
     Console.WriteLine("Result:");
     Console.WriteLine((num/100)*per);
-    Console.WriteLine("Int key - 1 - to continue, 0 - to exit");
+    Console.WriteLine("Input key - 1 - to continue, 0 - to exit");
     k = int.Parse(Console.ReadLine());
 } while (k == 1);
 return;
